@@ -54,7 +54,7 @@ int main (int argc, char *argv[])
 
 
     /* Set the pipeline to "playing" state*/
-    g_print ("Now set pipeline in state playing");
+    g_print ("Now set pipeline in state playing\n");
     gst_element_set_state (pipeline, GST_STATE_PLAYING);
 
 
